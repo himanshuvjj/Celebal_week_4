@@ -1,10 +1,6 @@
-Based on your uploaded EDA notebook, here's a **comprehensive conclusion and analysis** of the feature engineering and exploratory data analysis (EDA) conducted on the `Smartphones_cleaned_dataset.csv`:
+ **EDA & Feature Engineering Summary**
 
----
-
-## 📊 **EDA & Feature Engineering Summary**
-
-### 1. **Data Overview**
+ 1. **Data Overview**
 
 * The dataset includes a wide range of smartphone specifications such as price, processor, camera details, battery, and support for features like 5G, NFC, and expandable memory.
 * Several features contain missing values which were effectively handled using a machine learning-based imputation method (`IterativeImputer` with `RandomForestRegressor`), ensuring data quality for further analysis.
@@ -78,12 +74,12 @@ These features improve model interpretability and are useful for classification 
 
 ---
 
-## ✅ **Conclusions**
+##  **Conclusions**
 
-* 📶 **5G adoption** is higher among premium phones, but is increasingly seen in mid-range models without expensive features like NFC or expandable memory.
-* 📷 **Camera configuration** is a strong indicator of 5G support — more rear cameras correlate with 5G.
-* ⚙️ **Processor and RAM features** effectively distinguish device segments (budget vs premium).
-* 📈 **Feature engineering** added meaningful layers to the analysis and is ready for machine learning use cases like:
+ **5G adoption** is higher among premium phones, but is increasingly seen in mid-range models without expensive features like NFC or expandable memory.
+*  **Camera configuration** is a strong indicator of 5G support — more rear cameras correlate with 5G.
+*  **Processor and RAM features** effectively distinguish device segments (budget vs premium).
+*  **Feature engineering** added meaningful layers to the analysis and is ready for machine learning use cases like:
 
   * Predicting `has_5g`
   * Clustering phones by price/performance
